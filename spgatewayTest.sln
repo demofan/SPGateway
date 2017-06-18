@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpGatewayHelper", "SpGatewayHelper\SpGatewayHelper.csproj", "{DA4A63A4-105D-40A4-9F4A-4CF81FAC0DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpGatewayHelperTests", "SpGatewayHelperTests\SpGatewayHelperTests.csproj", "{A37F4DC6-C959-4F55-A621-C4396E0611FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4A63A4-105D-40A4-9F4A-4CF81FAC0DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4A63A4-105D-40A4-9F4A-4CF81FAC0DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4A63A4-105D-40A4-9F4A-4CF81FAC0DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4A63A4-105D-40A4-9F4A-4CF81FAC0DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37F4DC6-C959-4F55-A621-C4396E0611FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37F4DC6-C959-4F55-A621-C4396E0611FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37F4DC6-C959-4F55-A621-C4396E0611FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37F4DC6-C959-4F55-A621-C4396E0611FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 3b3336f6-b0f1-4ba7-8680-885f42a3f90b
+	EndGlobalSection
+EndGlobal
