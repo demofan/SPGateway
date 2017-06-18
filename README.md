@@ -1,5 +1,5 @@
 ﻿# SPGateway
-台灣第三方金流服務智富通API串接小幫手
+台灣第三方金流服務智付通API串接小幫手
 
 * 智付通第三方金流網址：[https://www.spgateway.com](https://www.spgateway.com)
 * 智付通 API 位置：[https://web.spgateway.com/api/download_api](https://web.spgateway.com/api/download_api)
@@ -53,7 +53,7 @@ public class HomeController : Controller
     {
         response.Key = _key;
         response.Vi = _Vi;
-        var success = response.Validate("MS31756909");
+        var success = response.Validate("MS12345678");
         if (success)
         {
             var tradInfoModel=response.GetResponseModel<TradeInfoModel>();
